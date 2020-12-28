@@ -1,0 +1,117 @@
+.hero {
+  position: relative;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    img {
+      margin-top: 131px;
+      @media screen and (max-width: 640px) {
+        margin-top: 123px;
+      }
+    }
+    h1 {
+      font-size: 3.4rem;
+      margin-top: 69px;
+      color: $DarkGrayishBlue;
+      @media screen and (max-width: 640px) {
+        margin-top: 73px;
+        font-size: 2.2rem;
+        margin-left: 38px;
+        margin-right: 38px;
+      }
+    }
+    p {
+      font-size: 1.8rem;
+      color: $GrayishBlue;
+      margin-top: 37px;
+      @media screen and (max-width: 640px) {
+        font-size: 1.2rem;
+        margin-left: 33px;
+        margin-right: 33px;
+      }
+    }
+    .btn {
+      display: flex;
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+      }
+      a {
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding: 19px 57px;
+        margin-top: 55px;
+        text-decoration: none;
+        color: white;
+        border-radius: 2.5rem;
+        &:first-child {
+          background: $StrongCyan;
+          margin-right: 9px;
+          box-shadow: 2px 4px 10px rgba(38, 186, 164, 0.5);
+          @media screen and (max-width: 640px) {
+            margin-bottom: 24px;
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+        &:last-child {
+          background: $LightBlue;
+          margin-left: 9px;
+          box-shadow: 2px 4px 10px rgba(97, 115, 255, 0.5);
+          @media screen and (max-width: 640px) {
+            margin-top: 0px;
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+        @media screen and (max-width: 640px) {
+          font-size: 1.2rem;
+          padding: 20px 106px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+    h2 {
+      font-size: 2.6rem;
+      color: #455b61;
+      margin-top: 163px;
+      @media screen and (max-width: 640px) {
+        margin-top: 167px;
+      }
+    }
+    #para {
+      width: 37%;
+      margin-top: 40px;
+      margin-bottom: 99px;
+      @media screen and (max-width: 640px) {
+        margin-left: 37px;
+        margin-right: 37px;
+        width: 90%;
+        margin-top: 37px;
+        margin-bottom: 71px;
+      }
+    }
+  }
+  #header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    @media screen and (max-width: 640px) {
+      display: none;
+    }
+  }
+  #header1 {
+    display: none;
+    @media screen and (max-width: 640px) {
+      display: inline;
+      position: absolute;
+      top: 0;
+      right: 0;
+      pointer-events: none;
+    }
+  }
+}

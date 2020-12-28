@@ -1,0 +1,105 @@
+.features {
+  .f1 {
+    display: flex;
+    margin-bottom: 161px;
+    @media screen and (max-width: 640px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 202px;
+    }
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    img {
+      transform: translateX(-4%);
+      margin-right: 111px;
+      @media screen and (max-width: 640px) {
+        width: 312px;
+        height: 239px;
+        transform: translateX(0%);
+        display: block;
+        margin: auto;
+        margin-bottom: 63px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 312px;
+        height: 239px;
+        transform: translateX(0%);
+        display: block;
+        margin: auto;
+        margin-bottom: 63px;
+      }
+    }
+    .text {
+      transform: translateX(-4%);
+      margin-top: 74px;
+      @media screen and (max-width: 640px) {
+        transform: translateX(0%);
+        margin-top: 0px;
+        margin-right: 42px;
+        margin-left: 42px;
+      }
+      @media screen and (max-width: 768px) {
+        transform: translateX(0%);
+        margin-top: 0px;
+        margin-right: 42px;
+        margin-left: 42px;
+      }
+      &:last-child {
+        margin-bottom: 0px;
+      }
+      .p1 {
+        h2 {
+          font-size: 1.8rem;
+          color: $DarkGrayishBlue;
+          margin-bottom: 24px;
+        }
+        p {
+          font-size: 1.4rem;
+          color: $GrayishBlue;
+          margin-bottom: 73px;
+          @media screen and (max-width: 640px) {
+            margin-bottom: 60px;
+          }
+          @media screen and (max-width: 768px) {
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+  }
+  .f2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media screen and (max-width: 640px) {
+      margin-left: 41px;
+      margin-right: 41px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: $DarkGrayishBlue;
+      margin-bottom: 36px;
+      @media screen and (max-width: 640px) {
+        font-size: 2rem;
+        margin-bottom: 32px;
+      }
+    }
+    p {
+      font-size: 1.6rem;
+      color: $GrayishBlue;
+      margin-bottom: 120px;
+      @media screen and (max-width: 640px) {
+        font-size: 1.5rem;
+        margin-bottom: 74px;
+      }
+    }
+  }
+}

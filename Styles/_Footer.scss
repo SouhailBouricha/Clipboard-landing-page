@@ -1,0 +1,178 @@
+footer {
+  .head_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 2.7rem;
+      color: $DarkGrayishBlue;
+      margin-bottom: 40px;
+      @media screen and (max-width: 640px) {
+        font-size: 2.2rem;
+        margin-left: 52px;
+        text-align: center;
+        margin-right: 52px;
+      }
+    }
+    p {
+      font-size: 1.6rem;
+      color: $GrayishBlue;
+      @media screen and (max-width: 640px) {
+        font-size: 1.6rem;
+        margin-left: 35px;
+        margin-right: 35px;
+        text-align: center;
+      }
+    }
+    .btn {
+      display: flex;
+      margin-bottom: 195px;
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+      }
+      a {
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding: 19px 57px;
+        margin-top: 55px;
+        text-decoration: none;
+        color: white;
+        border-radius: 2.5rem;
+        &:first-child {
+          background: $StrongCyan;
+          margin-right: 9px;
+          box-shadow: 2px 4px 10px rgba(38, 186, 164, 0.5);
+          @media screen and (max-width: 640px) {
+            margin-bottom: 24px;
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+        &:last-child {
+          background: $LightBlue;
+          margin-left: 9px;
+          box-shadow: 2px 4px 10px rgba(97, 115, 255, 0.5);
+          @media screen and (max-width: 640px) {
+            margin-top: 0px;
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+        @media screen and (max-width: 640px) {
+          font-size: 1.2rem;
+          padding: 20px 106px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .main_footer {
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    @media screen and (max-width: 640px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .the1 {
+      display: flex;
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      img {
+        height: 58px;
+        width: 58px;
+        margin-right: 137px;
+        @media screen and (max-width: 640px) {
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-bottom: 52px;
+        }
+      }
+      ul {
+        @media screen and (max-width: 640px) {
+          margin-left: 0px;
+          margin-bottom: 37px;
+          margin-right: 0px;
+        }
+        margin-right: 100px;
+        li {
+          a {
+            text-decoration: none;
+            color: $GrayishBlue;
+            &:hover {
+              color: $StrongCyan;
+            }
+          }
+          list-style: none;
+          font-size: 1.6rem;
+          margin-bottom: 30px;
+          @media screen and (max-width: 640px) {
+            margin-bottom: 37px;
+          }
+          &::last-child {
+            @media screen and (max-width: 640px) {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+      #ul2 {
+        margin-right: 75px;
+        @media screen and (max-width: 640px) {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+        li {
+          &::last-child {
+            @media screen and (max-width: 640px) {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+    .the2 {
+      ul {
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 640px) {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 52px;
+        }
+        &:first-child {
+          @media screen and (max-width: 640px) {
+            margin-left: 0px;
+          }
+        }
+        li {
+          list-style: none;
+          a {
+            margin-left: 27px;
+            &:hover {
+              svg {
+                path {
+                  fill: #26baa4;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

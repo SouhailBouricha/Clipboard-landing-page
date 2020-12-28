@@ -1,0 +1,123 @@
+.workflow {
+  .img {
+    display: block;
+    margin: auto;
+    width: 809px;
+    height: 471px;
+    margin-bottom: 136px;
+    @media screen and (max-width: 640px) {
+      width: 311px;
+      height: 182px;
+      margin-bottom: 120px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h2 {
+    font-size: 2.7rem;
+    color: $DarkGrayishBlue;
+    text-align: center;
+    margin-bottom: 37px;
+    @media screen and (max-width: 640px) {
+      font-size: 2.4rem;
+      margin-bottom: 26px;
+      margin-left: 65px;
+      margin-right: 65px;
+    }
+  }
+  p {
+    font-size: 1.7rem;
+    text-align: center;
+    color: $GrayishBlue;
+    margin-bottom: 83px;
+    margin-left: 65px;
+    margin-right: 65px;
+    @media screen and (max-width: 640px) {
+      margin-bottom: 62px;
+      font-size: 1.5rem;
+    }
+  }
+  .carts {
+    display: flex;
+    @media screen and (max-width: 640px) {
+      display: flex;
+      flex-direction: column;
+    }
+    .cart {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 169px;
+      flex: 1;
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 0px;
+      }
+      img {
+        margin-bottom: 49px;
+      }
+      h2 {
+        margin-bottom: 32px;
+      }
+      p {
+        @media screen and (max-width: 640px) {
+          width: 100%;
+        }
+      }
+    }
+    .c1 {
+      margin-left: 174px;
+      margin-right: 45px;
+      @media screen and (max-width: 640px) {
+        margin-left: 33px;
+        margin-right: 33px;
+      }
+    }
+    .c3 {
+      margin-left: 174px;
+      margin-right: 45px;
+      @media screen and (max-width: 640px) {
+        margin-left: 33px;
+        margin-bottom: 0px;
+        margin-right: 33px;
+      }
+    }
+  }
+  .coms {
+    .com {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 166px;
+      margin-right: 166px;
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      img {
+        @media screen and (max-width: 640px) {
+          margin-bottom: 65px;
+        }
+        margin-bottom: 173px;
+      }
+      &:last-child {
+        @media screen and (max-width: 640px) {
+          margin-bottom: 178px;
+        }
+      }
+    }
+  }
+}
